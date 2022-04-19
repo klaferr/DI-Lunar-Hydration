@@ -228,11 +228,6 @@ d34600_bd = readin(loc+'BD_34600.fit', 512, ysize, xsize)
 d34601_bd = readin(loc+'BD_34601.fit', 512, ysize, xsize)
 d34602_bd = readin(loc+'BD_34602.fit', 512, ysize, xsize)
 
-# res mean bd
-d33900_bd_reseman = readin(loc+'d33900_bd_resmean.fit', 512, ysize, xsize)
-d33901_bd_reseman = readin(loc+'d33901_bd_resmean.fit', 512, ysize, xsize)
-d33902_bd_reseman = readin(loc+'d33902_bd_resmean.fit', 512, ysize, xsize)
-
 # parameters
 d33900_parameters = readin(loc+'Parameters_33900.fit', 8, ysize, xsize)
 d33901_parameters = readin(loc+'Parameters_33901.fit', 8, ysize, xsize)
